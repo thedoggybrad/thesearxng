@@ -47,13 +47,13 @@
             font-size: 16px;
             border: none;
             border-radius: 4px;
-            background-color: #da5739;
+            background-color: #4f7bfa;
             color: white;
             cursor: pointer;
             margin-left: 10px;
         }
         button:hover {
-            background-color: #cc5b34;
+            background-color: #263b79;
         }
         footer {
             text-align: center;

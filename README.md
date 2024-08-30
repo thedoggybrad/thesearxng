@@ -8,7 +8,7 @@ Stable
 1.) Must have 100% uptime result on searx.space<br>
 2.) Must have a response time of no longer than approximately 1 second on searx.space's result.
 
-## List of SearXNG Instances selected
+## List of SearXNG Instances utilized
 https://priv.au/<br>
 https://sx.zorby.top/<br>
 https://search.hbubli.cc/<br>

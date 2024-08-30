@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="TheSearXNG - Gateway and UI. Your SearXNG Gateway and UI. Search privately and randomize your search data. Fully open-source for the masses.">
+    <meta name="description" content="The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.">
     <meta name="robots" content="index, follow">
     <link href="URL" rel="https://thesearxng.vercel.app">
     <meta name="keywords" content="SearXNG, Privacy, Google, UI, Gateway, Bing, DuckDuckGo, Search, Web, SearX, Randomize, Instances, TheDoggyBrad">

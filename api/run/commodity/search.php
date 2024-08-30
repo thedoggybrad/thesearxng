@@ -1,6 +1,6 @@
 <?php
 // Path to the text file containing search engine URLs
-$filePath = '/favicon/list.txt';
+$filePath = 'https://thesearxng.vercel.app/favicon/list.txt';
 
 // Read URLs from the file
 if (file_exists($filePath)) {

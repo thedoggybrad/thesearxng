@@ -95,7 +95,7 @@ $bingverify = getenv('MSVALIDATE01');
     <div class="content">
         <div class="container">
             <img src="/favicon/searxng.png" alt="searxng icon">
-            <input type="text" id="searchInput" placeholder="Search using TheSearXNG - Gateway and UI">
+            <input type="text" id="searchInput" placeholder="Search the web">
             <button style="margin-top: 20px;" onclick="search()">Search</button>
         </div>
     </div>

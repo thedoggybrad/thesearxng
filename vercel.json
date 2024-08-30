@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/run/commodity/intellect.php": {
+      "runtime": "vercel-php@0.7.1",
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/run/commodity/intellect.php" }
+  ]
+}

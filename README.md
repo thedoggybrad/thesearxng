@@ -2,6 +2,10 @@
 # TheSearXNG - Gateway and UI
 The gateway and UI for SearXNG from TheDoggyBrad Software Labs.
 
+## The Purpose of this project and how you can achieve it
+The purpose of this project was to make your search experience more privacy friendly by making your search data not given to a single instance rather to randomize the instance that will receive your data and the instance that you will be using as well. <br>
+The most effective way to achieve the purpose of this project is to use the Search URL of this project and set the Search UI as the homepage of your browser as well and to search via your address bar (to randomize the instance again) and not via the instance's search box (to avoid just sending all your search data to the single instance.
+
 ## How does this project work?
 1.) I carefully selected the following SearXNG instances based on its performance results on searx.space listed below to be randomly selected everytime you search so that your search data will not be focused on a single server. The criteria I used can be located below.<br>
 2.) If you are familar on benbusby's farside on [https://farside.link/](https://farside.link/), it is the inspiration of this project. It randomly selects the instance that you will be using to do the search. But the difference of this project is that this uses PHP on Vercel while Farside uses Elixir programming language and of course the logic and its algorithm. Since I am not knowledgeable in Elixir, I cannot discuss the difference of our logics and algorithms but this project only randomly selects my carefully selected instance.<br>

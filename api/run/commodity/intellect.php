@@ -96,7 +96,7 @@ $bingverify = getenv('MSVALIDATE01');
         </div>
     </div>
     <footer><a href="https://github.com/thedoggybrad/thesearxng">Github</a>
-        <br>
+        <br><br>
         ©2024-Present TheSearXNG - Gateway and UI from <a href="https://github.com/thedoggybrad">TheDoggyBrad</a>. Licensed under the <a href="https://github.com/thedoggybrad/thesearxng/blob/main/LICENSE">MIT-0 License</a>.</footer>
     <script>
         const searchEngines = [

@@ -12,6 +12,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="icon" type="image/x-ico" href="/favicon/favicon.ico">
+    <meta property="og:url" content="https://thesearxng.vercel.app">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TheSearXNG - Gateway and UI">
+    <meta property="og:description" content="The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.">
+    <meta property="og:image" content="/favicon/image.PNG">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="thesearxng.vercel.app">
+    <meta property="twitter:url" content="https://thesearxng.vercel.app">
+    <meta name="twitter:title" content="TheSearXNG - Gateway and UI">
+    <meta name="twitter:description" content="The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.">
+    <meta name="twitter:image" content="/favicon/image.PNG">
     <style>
         html, body {
             height: 100%;

@@ -11,6 +11,10 @@
   },
   "routes": [
     {
+      "src": "/favicon/(.*)",
+      "dest": "/favicon/$1"
+    },
+    {
       "src": "/search",
       "dest": "/api/run/commodity/search.php"
     },

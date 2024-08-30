@@ -23,7 +23,7 @@ The most effective way to achieve the purpose of this project is to use the Sear
 3.) You can both use the UI and the Search URL that you can add to your browser as a default search engine.
 
 ## Deploying your own instance
-It is so easy, just fork this project. Deploy it on Vercel in Node.JS version 18.x not 20.x (it will not work in 20.x due to a package not compiled in that version). Then edit the file by simplying adding an ENTER to the read me page so that it can redploy otherwise if you do not do this, an error will appear if you try to visit your deployed instance like the one on this issue report on  https://github.com/vercel-community/php/issues/566/. Also, please add your own environmental variables in VERCEL for Canonical URL, Google and Bing WebMaster verifications just refer to api/run/commodity/intellect.php for those.
+It is so easy, just fork this project. Deploy it on Vercel in Node.JS version 18.x not 20.x (it will not work in 20.x due to a package not compiled in that version). Then edit the file by simplying adding an ENTER to the read me page so that it can redploy otherwise if you do not do this, an error will appear if you try to visit your deployed instance like the one on this issue report on  https://github.com/vercel-community/php/issues/566/. Also, please add your own environment variables in VERCEL for Canonical URL, Google and Bing WebMaster verifications just refer to api/run/commodity/intellect.php for those.
 
 ## Last time and date of selection/revisit of selected SearXNG Instances
 12:00 PM - August 30, 2024 (UTC+8)

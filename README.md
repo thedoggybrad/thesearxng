@@ -20,7 +20,7 @@ https://thesearxng.vercel.app/search?q=%s
 https://thesearxng.vercel.app/search?q=(Replace_with_your_Search_Query)
 
 ## The UI
-Just visit https://thesearxng.vercel.app/ to start the exploration of the web using SearXNG!
+Just visit https://thesearxng.vercel.app/ to start the exploration of the web using SearXNG! and you can make this page as your browser's default homepage too!
 
 ## Last time and date of selection/revisit of selected SearXNG Instances
 12:00 PM - August 30, 2024 (UTC+8)

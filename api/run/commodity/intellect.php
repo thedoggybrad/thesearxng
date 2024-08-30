@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="TheSearXNG - Gateway and UI. Your SearXNG Gateway and UI. Search privately and randomize your search data. Fully open-source for the masses.">
+    <meta name="keywords" content="SearXNG, Privacy, Google, UI, Gateway, Bing, DuckDuckGo, Search, Web, SearX, Randomize, Instances, TheDoggyBrad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TheSearXNG - Gateway and UI</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">

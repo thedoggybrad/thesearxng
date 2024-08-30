@@ -24,7 +24,10 @@ Just visit https://thesearxng.vercel.app/ to start the exploration of the web us
 ## Criterias for selection of SearXNG Instances
 1.) Must have 100% uptime result on searx.space<br>
 2.) Must have a response time of no longer than approximately 1 second on searx.space's result.<br>
-3.) Must have no error.
+3.) Must have no error on any categories on searx.space
+
+## Concerns
+If you have any concerns on this software, please reach TheDoggyBrad Software Labs on admin@gosocial.x10.bz via email. Just be informed that I do not regularly check my email as I am not a full-time programmer yet, this is just my free-time hobby.
 
 
 ## List of SearXNG Instances utilized

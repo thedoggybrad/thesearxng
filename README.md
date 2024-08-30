@@ -1,3 +1,4 @@
+![Logo](favicon/searxng.png)
 # TheSearXNG
 The SearXNG gateway and UI from TheDoggyBrad
 

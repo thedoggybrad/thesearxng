@@ -72,7 +72,7 @@
             <button style="margin-top: 20px;" onclick="search()">Search</button>
         </div>
     </div>
-    <footer>©DDG-UI from <a href="https://github.com/thedoggybrad">TheDoggyBrad</a>. All Rights Reserved.</footer>
+    <footer>©<a href="https://github.com/thedoggybrad/thesearxng">TheSearXNG - Gateway and UI</a> from <a href="https://github.com/thedoggybrad">TheDoggyBrad</a>. All Rights Reserved.</footer>
     <script>
         const searchEngines = [
             "https://priv.au/",

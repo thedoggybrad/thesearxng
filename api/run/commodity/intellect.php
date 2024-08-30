@@ -1,262 +1,134 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dceum4nes/image/upload/v1719906272/mastoget/apple-touch-icon.png.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dceum4nes/image/upload/v1719906297/mastoget/favicon-32x32.png.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/dceum4nes/image/upload/v1719906288/mastoget/favicon-16x16.png.png">
-    <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/dceum4nes/image/upload/v1719906281/mastoget/favicon.ico.ico">
-    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dceum4nes/image/upload/v1719906281/mastoget/favicon.ico.ico">
-    <link rel="manifest" href="https://res.cloudinary.com/dceum4nes/raw/upload/v1719906315/mastoget/site.webmanifest">
-    <meta name="description" content="Your Feed Retriever for the Mastodon network">
-    <meta name="keywords" content="Mastodon, Mastoget">
-    <meta name="author" content="The Mastoget Organization">
-    <meta property="og:title" content="Mastoget" />
-    <meta property="og:type" content="site" />
-    <meta property="og:url" content="https://mastoget.x10.bz/" />
-    <meta property="og:image" content="https://res.cloudinary.com/dceum4nes/image/upload/v1720272232/mastoget/Mastogetlogo.jpg.jpg" />
-    <link rel="canonical" href="https://mastoget.x10.bz/" />
-    <title>Mastoget - Your Feed Retriever for the Mastodon network</title>
-    <link rel="preload" as="image" href="https://res.cloudinary.com/dceum4nes/image/upload/v1720272232/mastoget/Mastogetlogo.jpg.jpg">
-    <!-- Diagnostic Code: Masget10Vercel -->
+    <title>SearXNG</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/x-ico" href="favicon.ico">
     <style>
-        body {
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #111111;
             font-family: Arial, sans-serif;
-            background-color: #121212;
-            margin: 20px;
         }
-
-        .post {
-            background-color: #333;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-            color: #fff;
+        .container {
+            text-align: center;
+            width: 80%;
+            max-width: 800px;
         }
-
-        .post p {
-            overflow: hidden;
-            white-space: pre-line;
-            text-overflow: ellipsis;
-        }
-
-        .post a:link,
-        .popup a:link {
-            color: #fff
-        }
-
-        .post a:hover {
-            color: #FF0000
-        }
-
-        .media {
-            max-width: 100%;
-            margin-top: 10px;
-            overflow: hidden;
-        }
-
-        .media img,
-        .media video {
+        img {
             width: 100%;
-            max-width: 100%;
             height: auto;
-            border-radius: 8px;
-            display: block;
-            margin-bottom: 10px;
+            max-width: 443px; /* Maintain the original maximum width */
+            margin-bottom: 20px;
         }
-
-        .author-img {
-            width: 64px;
-            height: 64px;
-            border-radius: 50%;
-            margin-right: 10px;
+        input[type="text"] {
+            width: 100%;
+            max-width: 600px;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
         }
-
-        hr {
-            border: 0;
-            border-top: 1px solid #ddd;
-            margin: 20px 0;
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #da5739;
+            color: white;
+            cursor: pointer;
+            margin-left: 10px;
         }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            color: #fff
+        button:hover {
+            background-color: #cc5b34;
         }
-
-        @media only screen and (max-width: 600px) {
-            .post {
-                max-width: 95%;
-                margin: 10px;
-            }
-
-            .author-img {
-                width: 40px;
-                height: 40px;
-                margin-right: 5px;
-            }
+        footer {
+            text-align: center;
+            color: #FFFFFF;
+            padding: 10px;
+            background-color: #000000;
         }
-
-        .mastogetlogo {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        #popupBox {
-            display: none;
-            background-color: #333;
-            color: #fff;
-            padding: 50px;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 999;
-            overflow: auto; /* Set overflow property to auto or scroll */
-        }
-
-        .popup a:link {
-            color: #fff
-        }
-
-        .popup a:hover {
-            color: #FF0000
-        }
+        a {color: #ffffff;}
     </style>
 </head>
-
 <body>
-    <img class="mastogetlogo" width="300px" height="120px" src="https://res.cloudinary.com/dceum4nes/image/upload/v1720272232/mastoget/Mastogetlogo.jpg.jpg">
-    <p class="popup" style="color:white; text-align:center"><a href="https://mastoget.x10.bz">Refresh Content</a><br><a href="https://github.com/The-Mastoget-Organization/about/blob/main/README.md">About Mastoget</a></p><br><br>
-</body>
+    <div class="content">
+        <div class="container">
+            <img src="searxng.png" alt="Search Engine">
+            <input type="text" id="searchInput" placeholder="Search without being tracked.">
+            <button style="margin-top: 20px;" onclick="search()">Search</button>
+        </div>
+    </div>
+    <footer>©DDG-UI from <a href="https://github.com/thedoggybrad">TheDoggyBrad</a>. All Rights Reserved.</footer>
+    <script>
+        const searchEngines = [
+            "https://priv.au/",
+            "https://sx.zorby.top/",
+            "https://search.hbubli.cc/",
+            "https://searx.tiekoetter.com/",
+            "https://paulgo.io/",
+            "https://search.bus-hit.me/",
+            "https://opnxng.com/",
+            "https://search.indst.eu/",
+            "https://searx.be/",
+            "https://northboot.xyz/",
+            "https://search.im-in.space/",
+            "https://search.sapti.me/",
+            "https://ooglester.com/",
+            "https://etsi.me/",
+            "https://search.blitzw.in/",
+            "https://searx.namejeff.xyz/",
+            "https://s.mble.dk/",
+            "https://www.gruble.de/",
+            "https://searx.work/",
+            "https://search.smnz.de/",
+            "https://search.citw.lgbt/",
+            "https://search.ononoki.org/",
+            "https://searx.daetalytica.io/",
+            "https://copp.gg/",
+            "https://searx.dresden.network/",
+            "https://baresearch.org/",
+            "https://search.rowie.at/",
+            "https://skyrimhater.com/",
+            "https://searx.sev.monster/",
+            "https://search.charliewhiskey.net/",
+            "https://searx.ro/",
+            "https://searxng.brihx.fr/",
+            "https://searx.mv-software.de/",
+            "https://searx.colbster937.dev/",
+            "https://searx.oakleycord.dev/",
+            "https://searx.mxchange.org/",
+            "https://searx.foss.family/"
+        ];
 
-    <?php
-    error_reporting(0);
-
-    // Function to fetch posts from a Mastodon instance public timeline using ActivityPub
-    function fetchPostsFromMastodon($url)
-    {
-        // Make a GET request to fetch posts
-        $response = file_get_contents($url);
-
-        // Decode JSON response
-        $data = json_decode($response, true);
-
-        // Extract and return posts
-        return isset($data) ? $data : [];
-    }
-
-    // Function to decode HTML entities, including emoji codes
-    function decodeEntities($text)
-    {
-        return html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
-    }
-
-    // Function to get the profile image URL of the author
-    function getAuthorProfileImage($account)
-    {
-        return $account['avatar'];
-    }
-
-    // Function to calculate the time difference and format it
-    function getTimeElapsedString($datetime, $full = false)
-    {
-        $now = new DateTime;
-        $ago = new DateTime($datetime);
-        $diff = $now->diff($ago);
-
-        $diff->w = floor($diff->d / 7);
-        $diff->d -= $diff->w * 7;
-
-        $string = array(
-            'y' => 'year',
-            'm' => 'month',
-            'w' => 'week',
-            'd' => 'day',
-            'h' => 'hour',
-            'i' => 'minute',
-            's' => 'second',
-        );
-
-        foreach ($string as $k => &$v) {
-            if ($diff->$k) {
-                $v = $diff->$k . ' ' . ($diff->$k > 1 ? $v . 's' : $v);
-            } else {
-                unset($string[$k]);
+        function search() {
+            const query = document.getElementById('searchInput').value;
+            if (query) {
+                const randomIndex = Math.floor(Math.random() * searchEngines.length);
+                const searchUrl = `${searchEngines[randomIndex]}search?q=${encodeURIComponent(query)}`;
+                window.location.href = searchUrl;
             }
         }
 
-        if (!$full) $string = array_slice($string, 0, 1);
-        return $string ? implode(', ', $string) . ' ago' : 'just now';
-    }
-
-    // Array of specific XML files you want to load
-    $files = [
-        'https://selectedinstances.mastoget.x10.bz/instances1.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances2.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances3.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances4.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances5.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances6.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances7.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances8.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances9.xml',
-        'https://selectedinstances.mastoget.x10.bz/instances10.xml',
-        // Add more filenames here as needed
-    ];
-
-    $urls = [];
-
-    // Loop through each XML file
-    foreach ($files as $file) {
-        // Load instance URLs from the XML file
-        $instancesXml = simplexml_load_file($file);
-
-        foreach ($instancesXml->instance as $instance) {
-            $urls[] = (string) $instance;
-        }
-    }
-
-    // Randomly select one URL from the $urls array
-    $randomUrl = $urls[array_rand($urls)];
-
-    // Fetch posts from the randomly selected Mastodon instance URL
-    $posts = fetchPostsFromMastodon($randomUrl);
-
-    // Display posts
-    foreach ($posts as $post) {
-        echo "<div class='post'>";
-
-        // Display author's profile image
-        $authorProfileImage = getAuthorProfileImage($post['account']);
-        echo "<img class='author-img' src='{$authorProfileImage}' alt='Author Profile Image'>";
-
-        // Display decoded and converted author and content
-        echo "<p style='margin-bottom: 2px;'><strong>{$post['account']['display_name']}</strong><p class='post-time' style='margin-top: 0px;'>Posted&nbsp;" . getTimeElapsedString($post['created_at']) . "</p>";
-        echo "<p>" . decodeEntities($post['content']) . "</p>";
-
-        // Display media attachments (images or videos)
-        if (isset($post['media_attachments']) && !empty($post['media_attachments'])) {
-            foreach ($post['media_attachments'] as $attachment) {
-                if ($attachment['type'] === 'image') {
-                    echo "<div class='media'><img src='" . $attachment['url'] . "' alt='Image'></div>";
-                } elseif ($attachment['type'] === 'video') {
-                    echo "<div class='media'><video controls><source src='" . $attachment['url'] . "' type='video/mp4'></video></div>";
-                }
+        document.getElementById('searchInput').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                search();
+                event.preventDefault(); // Prevent the default form submit action (if any)
             }
-        }
-
-        echo "</div><hr>";
-    }
-    ?>
+        });
+    </script>
 </body>
 </html>

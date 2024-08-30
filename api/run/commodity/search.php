@@ -59,6 +59,7 @@ if (isset($_GET['q'])) {
     exit();
 } else {
     // If no query is set, show an error or redirect to a default page
-    echo "Error: No search query provided.";
+    header("Location: /"); // Redirects to the home page
+
 }
 ?>

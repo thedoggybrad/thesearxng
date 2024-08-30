@@ -1,44 +1,14 @@
 <?php
-// List of search engines
-$searchEngines = [
-    "https://priv.au/",
-    "https://sx.zorby.top/",
-    "https://search.hbubli.cc/",
-    "https://searx.tiekoetter.com/",
-    "https://paulgo.io/",
-    "https://search.bus-hit.me/",
-    "https://opnxng.com/",
-    "https://search.indst.eu/",
-    "https://searx.be/",
-    "https://northboot.xyz/",
-    "https://search.im-in.space/",
-    "https://search.sapti.me/",
-    "https://ooglester.com/",
-    "https://etsi.me/",
-    "https://search.blitzw.in/",
-    "https://searx.namejeff.xyz/",
-    "https://s.mble.dk/",
-    "https://www.gruble.de/",
-    "https://searx.work/",
-    "https://search.smnz.de/",
-    "https://search.citw.lgbt/",
-    "https://search.ononoki.org/",
-    "https://searx.daetalytica.io/",
-    "https://copp.gg/",
-    "https://searx.dresden.network/",
-    "https://baresearch.org/",
-    "https://search.rowie.at/",
-    "https://skyrimhater.com/",
-    "https://searx.sev.monster/",
-    "https://search.charliewhiskey.net/",
-    "https://searx.ro/",
-    "https://searxng.brihx.fr/",
-    "https://searx.mv-software.de/",
-    "https://searx.colbster937.dev/",
-    "https://searx.oakleycord.dev/",
-    "https://searx.mxchange.org/",
-    "https://searx.foss.family/"
-];
+// Path to the text file containing search engine URLs
+$filePath = 'search_engines.txt';
+
+// Read URLs from the file
+if (file_exists($filePath)) {
+    $searchEngines = file($filePath, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+} else {
+    // If the file does not exist, handle the error
+    die("Critical Error: Call the attention of TheDoggyBrad Software Labs at admin@gosocial.x10.bz");
+}
 
 // Extract query parameter from the URL
 if (isset($_GET['q'])) {
@@ -58,8 +28,8 @@ if (isset($_GET['q'])) {
     header("Location: " . $searchUrl);
     exit();
 } else {
-    // If no query is set, show an error or redirect to a default page
-    header("Location: /"); // Redirects to the home page
-
+    // If no query is set, redirect to the home page
+    header("Location: /");
+    exit();
 }
 ?>

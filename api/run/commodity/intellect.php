@@ -1,6 +1,7 @@
 <?php
 $baseUrl = getenv('CANONICAL_URL');
 $googleverify = getenv('GOOGLE_SITE_VERIFICATION');
+$bingverify = getenv('MSVALIDATE01');
 ?>
 
 <!DOCTYPE html> 
@@ -29,6 +30,7 @@ $googleverify = getenv('GOOGLE_SITE_VERIFICATION');
     <meta name="twitter:description" content="The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.">
     <meta name="twitter:image" content="/favicon/image.PNG">
     <meta name="google-site-verification" content="<?php echo htmlspecialchars($googleverify); ?>" />
+    <meta name="msvalidate.01" content="<?php echo htmlspecialchars($bingverify); ?>" />
     <style>
         html, body {
             height: 100%;

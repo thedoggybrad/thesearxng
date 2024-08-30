@@ -1,6 +1,6 @@
 <?php
 // Path to the text file containing search engine URLs
-$filePath = 'search_engines.txt';
+$filePath = '/favicon/list.txt';
 
 // Read URLs from the file
 if (file_exists($filePath)) {

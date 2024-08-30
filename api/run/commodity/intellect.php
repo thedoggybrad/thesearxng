@@ -76,7 +76,9 @@
             <button style="margin-top: 20px;" onclick="search()">Search</button>
         </div>
     </div>
-    <footer><a href="https://github.com/thedoggybrad/thesearxng">Github</a<br>©2024-Present TheSearXNG - Gateway and UIfrom <a href="https://github.com/thedoggybrad">TheDoggyBrad</a>. Licensed under the MIT License. All Rights Reserved.</footer>
+    <footer><a href="https://github.com/thedoggybrad/thesearxng">Github</a>
+        <br>
+        ©2024-Present TheSearXNG - Gateway and UI from <a href="https://github.com/thedoggybrad">TheDoggyBrad</a>. Licensed under the <a href="https://github.com/thedoggybrad/thesearxng/blob/main/LICENSE">MIT-0 License</a>.</footer>
     <script>
         const searchEngines = [
             "https://priv.au/",

@@ -7,6 +7,10 @@
     "api/run/commodity/search.php": {
       "runtime": "vercel-php@0.7.1",
       "maxDuration": 60
+    },
+    "api/run/commodity/autocompleter.php": {
+      "runtime": "vercel-php@0.7.1",
+      "maxDuration": 60
     }
   },
   "routes": [
@@ -17,6 +21,10 @@
     {
       "src": "/search",
       "dest": "/api/run/commodity/search.php"
+    },
+    {
+      "src": "/autocompleter",
+      "dest": "/api/run/commodity/autocompleter.php"
     },
     {
       "src": "/(.*)",

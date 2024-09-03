@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "TheSearXNG - Gateway and UI (TheDoggyBrad)",
+  "short_name": "TheSearXNG",
+  "author": "thedoggybrad",
+  "description": "Add TheSearXNG - Gateway and UI to your search engines list.",
+  "icons": {
+    "16": "images/searxng-wordmark.svg",
+    "128": "images/searxng-wordmark.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "SearXNG",
+      "keyword": "searx, searxng",
+      "search_url": "https://thesearxng.vercel.app/search?q={searchTerms}",
+      "favicon_url": "images/searxng-wordmark.svg",
+      "suggest_url": "https://thesearxng.vercel.app/autocompleter?q={searchTerms}",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  }
+}

@@ -13,7 +13,7 @@ https://thesearxng.vercel.app/search?q=(Replace_with_your_Search_Query)
 ## The UI
 Just visit https://thesearxng.vercel.app/ to start the exploration of the web using SearXNG! and you can make this page as your browser's default homepage too!
 
-## Autocompleter API [BETA]
+## Search Suggestions API
 You can now harvest the power of SearXNG's autocompletion using random instances per search. Every search (not typing) will use different instance for both your suggestions and searches.<br>
 Just type this on your browser's Search Suggestion API setting:<br>
 https://thesearxng.vercel.app/autocompleter?q=%s

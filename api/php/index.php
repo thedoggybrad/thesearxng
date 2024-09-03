@@ -36,59 +36,71 @@ $bingverify = getenv('MSVALIDATE01');
     <meta name="google-site-verification" content="<?php echo htmlspecialchars($googleverify); ?>" />
     <meta name="msvalidate.01" content="<?php echo htmlspecialchars($bingverify); ?>" />
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
-        .content {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #111111;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-            width: 80%;
-            max-width: 800px;
-        }
-        img {
-            width: 100%;
-            height: auto;
-            max-width: 443px;
-            margin-bottom: 10px;
-        }
-        input[type="text"] {
-            width: 100%;
-            max-width: 600px;
-            padding: 10px;
-            font-size: 16px;
-            border: 2px solid #ddd;
-            border-radius: 4px;
-        }
-        button {
-            padding: 10px 18px;
-            font-size: 16px;
-            border: none;
-            border-radius: 4px;
-            background-color: #4f7bfa;
-            color: white;
-            cursor: pointer;
-            margin-left: 10px;
-        }
-        button:hover {
-            background-color: #263b79;
-        }
-        footer {
-            text-align: center;
-            color: #FFFFFF;
-            padding: 20px;
-            background-color: #000000;
-        }
-        a {color: #ffffff;}
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    }
+
+  .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    font-family: Arial, sans-serif;
+    }
+
+ .container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    }
+
+ img {
+    width: 100%;
+    height: auto;
+    max-width: 443px;
+    margin-bottom: 10px;
+    }
+
+ input[type="text"] {
+    width: calc(100% - 22px);
+    max-width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+ button {
+    padding: 10px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4f7bfa;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    }
+
+ button:hover {
+    background-color: #263b79;
+    }
+
+ footer {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: #000000;
+    }
+
+ a {
+    color: #ffffff;
+   }
     </style>
 </head>
 <body>

@@ -1,4 +1,4 @@
-![Logo](favicon/thesearxng.png)
+![Logo](favicon/searxng.png)
 # TheSearXNG - Gateway and UI
 The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.
 

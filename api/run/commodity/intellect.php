@@ -59,6 +59,7 @@ $bingverify = getenv('MSVALIDATE01');
             width: 100%;
             height: auto;
             max-width: 443px; 
+            margin-bottom: 5px;
         }
         input[type="text"] {
             width: 100%;

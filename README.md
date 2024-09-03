@@ -16,7 +16,7 @@ Just visit https://thesearxng.vercel.app/ to start the exploration of the web us
 ## Autocompleter API [BETA]
 You can now harvest the power of SearXNG's autocompletion using random instances per search. Every search (not typing) will use different instance for both your suggestions and searches.<br>
 Just type this on your browser's Search Suggestion API setting:<br>
-https://thesearxng.com/autocompleter?q=%s
+https://thesearxng.vercel.app/autocompleter?q=%s
 
 ## Firefox Add-on
 Coming soon!

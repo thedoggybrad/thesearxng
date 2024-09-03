@@ -60,7 +60,6 @@ $bingverify = getenv('MSVALIDATE01');
             height: auto;
             max-width: 443px;
             margin-bottom: 10px;
-            
         }
         input[type="text"] {
             width: 100%;
@@ -96,7 +95,7 @@ $bingverify = getenv('MSVALIDATE01');
     <div class="content">
         <div class="container">
             <img src="/favicon/searxng.png" alt="searxng icon"><br>
-            <input type="text" id="searchInput" placeholder="Search the web">
+            <input type="text" id="searchInput" placeholder="Search the web"><br>
             <button style="margin-top: 20px;" onclick="search()">Search</button>
         </div>
     </div>

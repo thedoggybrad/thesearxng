@@ -1,14 +1,14 @@
 {
   "functions": {
-    "php/intellect.php": {
+    "api/php/index.php": {
       "runtime": "vercel-php@0.7.1",
       "maxDuration": 60
     },
-    "php/search.php": {
+    "api/php/search.php": {
       "runtime": "vercel-php@0.7.1",
       "maxDuration": 60
     },
-    "php/autocompleter.php": {
+    "api/php/autocompleter.php": {
       "runtime": "vercel-php@0.7.1",
       "maxDuration": 60
     }
@@ -20,15 +20,15 @@
     },
     {
       "src": "/search",
-      "dest": "php/search.php"
+      "dest": "api/php/search.php"
     },
     {
       "src": "/autocompleter",
-      "dest": "php/autocompleter.php"
+      "dest": "api/php/autocompleter.php"
     },
     {
       "src": "/(.*)",
-      "dest": "php/intellect.php"
+      "dest": "api/php/index.php"
     }
   ]
 }

@@ -58,20 +58,21 @@ $bingverify = getenv('MSVALIDATE01');
         img {
             width: 100%;
             height: auto;
-            max-width: 443px; 
-            margin-bottom: 5px;
+            max-width: 443px;
+            margin-bottom: 10px;
+            
         }
         input[type="text"] {
             width: 100%;
             max-width: 600px;
-            padding: 10px;
-            font-size: 16px;
+            padding: 12px;
+            font-size: 18px;
             border: 2px solid #ddd;
             border-radius: 4px;
         }
         button {
-            padding: 10px 20px;
-            font-size: 16px;
+            padding: 12px 20px;
+            font-size: 18px;
             border: none;
             border-radius: 4px;
             background-color: #4f7bfa;
@@ -85,7 +86,7 @@ $bingverify = getenv('MSVALIDATE01');
         footer {
             text-align: center;
             color: #FFFFFF;
-            padding: 10px;
+            padding: 20px;
             background-color: #000000;
         }
         a {color: #ffffff;}
@@ -94,14 +95,14 @@ $bingverify = getenv('MSVALIDATE01');
 <body>
     <div class="content">
         <div class="container">
-            <img src="/favicon/thesearxng.png" alt="searxng icon">
+            <img src="/favicon/searxng.png" alt="searxng icon"><br>
             <input type="text" id="searchInput" placeholder="Search the web">
             <button style="margin-top: 20px;" onclick="search()">Search</button>
         </div>
     </div>
     <footer><a href="https://github.com/thedoggybrad/thesearxng">Github (Documentation)</a>
         <br><br>
-        ©2024-Present TheSearXNG - Gateway and UI from <a href="https://github.com/thedoggybrad">TheDoggyBrad</a>. Licensed under the <a href="https://github.com/thedoggybrad/thesearxng/blob/main/LICENSE">MIT-0 License</a>.</footer>
+        ©2024-Present <a href="https://github.com/thedoggybrad">TheDoggyBrad Software Labs</a>. Licensed under the <a href="https://github.com/thedoggybrad/thesearxng/blob/main/LICENSE">MIT-0 License</a>.</footer>
     <script>
         const searchEngines = [
             "https://priv.au/",
@@ -155,7 +156,7 @@ $bingverify = getenv('MSVALIDATE01');
         document.getElementById('searchInput').addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
                 search();
-                event.preventDefault();
+                event.preventDefault(); // Prevent the default form submit action (if any)
             }
         });
     </script>

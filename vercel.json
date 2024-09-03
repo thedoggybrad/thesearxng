@@ -29,11 +29,6 @@
     {
       "src": "/(.*)",
       "dest": "/api/run/commodity/intellect.php"
-    },
-    {
-      "src": "/(.*)",
-      "status": 404,
-      "dest": "/api/run/commodity/404.html"
     }
   ]
 }

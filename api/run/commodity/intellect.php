@@ -99,7 +99,7 @@ $bingverify = getenv('MSVALIDATE01');
             <button style="margin-top: 20px;" onclick="search()">Search</button>
         </div>
     </div>
-    <footer><a href="https://github.com/thedoggybrad/thesearxng">Github (About us)</a>
+    <footer><a href="https://github.com/thedoggybrad/thesearxng">Github (Documentation)</a>
         <br><br>
         ©2024-Present TheSearXNG - Gateway and UI from <a href="https://github.com/thedoggybrad">TheDoggyBrad</a>. Licensed under the <a href="https://github.com/thedoggybrad/thesearxng/blob/main/LICENSE">MIT-0 License</a>.</footer>
     <script>

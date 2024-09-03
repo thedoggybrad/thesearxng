@@ -58,8 +58,7 @@ $bingverify = getenv('MSVALIDATE01');
         img {
             width: 100%;
             height: auto;
-            max-width: 443px; /* Maintain the original maximum width */
-            margin-bottom: 20px;
+            max-width: 443px; 
         }
         input[type="text"] {
             width: 100%;
@@ -155,7 +154,7 @@ $bingverify = getenv('MSVALIDATE01');
         document.getElementById('searchInput').addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
                 search();
-                event.preventDefault(); // Prevent the default form submit action (if any)
+                event.preventDefault();
             }
         });
     </script>

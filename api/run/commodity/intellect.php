@@ -65,14 +65,14 @@ $bingverify = getenv('MSVALIDATE01');
         input[type="text"] {
             width: 100%;
             max-width: 600px;
-            padding: 12px;
-            font-size: 18px;
+            padding: 10px;
+            font-size: 16px;
             border: 2px solid #ddd;
             border-radius: 4px;
         }
         button {
-            padding: 12px 20px;
-            font-size: 18px;
+            padding: 10px 18px;
+            font-size: 16px;
             border: none;
             border-radius: 4px;
             background-color: #4f7bfa;

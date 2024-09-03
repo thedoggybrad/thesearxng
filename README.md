@@ -18,8 +18,8 @@ You can now harvest the power of SearXNG's autocompletion using random instances
 Just type this on your browser's Search Suggestion API setting:<br>
 https://thesearxng.vercel.app/autocompleter?q=%s
 
-## Firefox Add-on
-Coming soon!
+## Firefox Add-on [COMING SOON]
+https://addons.mozilla.org/en-US/firefox/addon/thesearxnggatewayandui/
 
 ## The Purpose of this project and how you can achieve it
 The purpose of this project was to make your search experience more privacy friendly by making your search data not given to a single instance rather to randomize the instance that will receive your data and the instance that you will be using as well. <br>

@@ -18,8 +18,8 @@ You can now harvest the power of SearXNG's autocompletion using random instances
 Just type this on your browser's Search Suggestion API setting:<br>
 https://thesearxng.vercel.app/autocompleter?q=%s
 
-## Firefox Add-on [COMING SOON]
-This addon automatically adds this project in your search engine list.<br>
+## Firefox Add-on
+This amazing addon automatically adds this project in your search engine list.<br>
 https://addons.mozilla.org/en-US/firefox/addon/thesearxnggatewayandui/
 
 ## The Purpose of this project and how you can achieve it

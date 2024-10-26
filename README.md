@@ -7,7 +7,7 @@ The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliv
 ### For Web Browsers' Search Engine Setting
 https://thesearxng.vercel.app/search?q=%s
 
-### For Normal Direct Searching
+### For Normal Direct Searching 
 https://thesearxng.vercel.app/search?q=(Replace_with_your_Search_Query)
 
 ## The UI

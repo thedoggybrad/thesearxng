@@ -1,15 +1,15 @@
 {
   "functions": {
     "api/php/index.php": {
-      "runtime": "vercel-php@0.7.1",
+      "runtime": "vercel-php@0.7.3",
       "maxDuration": 60
     },
     "api/php/search.php": {
-      "runtime": "vercel-php@0.7.1",
+      "runtime": "vercel-php@0.7.3",
       "maxDuration": 60
     },
     "api/php/autocompleter.php": {
-      "runtime": "vercel-php@0.7.1",
+      "runtime": "vercel-php@0.7.3",
       "maxDuration": 60
     }
   },

@@ -21,6 +21,9 @@ https://thesearxng.vercel.app/autocompleter?q=%s
 This amazing addon automatically adds this project in your search engine list.<br>
 https://addons.mozilla.org/en-US/firefox/addon/thesearxnggatewayandui/
 
+## Uptime Monitoring
+Downtimes are a hassle, so if you are unsure whether TheSearXNG - Gateway and UI is down, please check https://tw0vqfsx.status.cron-job.org/ to check if it is really down or it is just you.
+
 ## The Purpose of this project and how you can achieve it
 The purpose of this project was to make your search experience more privacy friendly by making your search data not given to a single instance rather to randomize the instance that will receive your data and the instance that you will be using as well. <br>
 The most effective way to achieve the purpose of this project is to use the Search URL of this project as your browser's default search engine and set the Search UI as the homepage of your browser as well and to search via your address bar (to randomize the instance again) and not via the instance's search box (to avoid just sending all your search data to the single instance.

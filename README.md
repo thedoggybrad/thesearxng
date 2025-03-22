@@ -22,7 +22,7 @@ This amazing addon automatically adds this project in your search engine list.<b
 https://addons.mozilla.org/en-US/firefox/addon/thesearxnggatewayandui/
 
 ## Uptime Monitoring
-Downtimes are a hassle, so if you are unsure whether TheSearXNG - Gateway and UI is down, please check https://tw0vqfsx.status.cron-job.org/ to check if it is really down or it is just you.
+Downtimes are a hassle, so if you are unsure whether TheSearXNG - Gateway and UI is up or down, please check https://tw0vqfsx.status.cron-job.org/ to check if it is really down or it is just you.
 
 ## The Purpose of this project and how you can achieve it
 The purpose of this project was to make your search experience more privacy friendly by making your search data not given to a single instance rather to randomize the instance that will receive your data and the instance that you will be using as well. <br>

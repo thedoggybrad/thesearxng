@@ -41,8 +41,8 @@ The following are the criteria for the selection of the SearXNG public instances
 1.) Must have 100% uptime record on searx.space<br>
 2.) Must have a search, google and initial response time of no longer than approximately 1 second on searx.space.<br>
 3.) Must have no error on any categories on searx.space.<br>
-4.) Must have an HTML grade of either C, V or F on searx.space.<br>
-5.) Must have a TLS and CSP grade of A+ only, this is for safety of the users.<br>
+4.) Must have an HTML grade of either C, V or F on searx.space. This means that the used instances does not use modified javascript files and does not contain any analytics tracking.<br>
+5.) Must have a TLS and CSP grade of A+ only. This criteria was imposed for the safety of the users.<br>
 
 ## List of SearXNG Instances utilized
 https://search.inetol.net/<br>

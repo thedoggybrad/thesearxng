@@ -133,7 +133,6 @@ $bingverify = getenv('MSVALIDATE01');
             "https://searx.tuxcloud.net/",
             "https://opnxng.com/",
             "https://search.mdosch.de/",
-            "https://search.mdosch.de/",
             "https://searxng.f24o.zip/",
             "https://search.citw.lgbt/"
         ];

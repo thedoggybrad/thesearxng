@@ -65,7 +65,6 @@ https://www.gruble.de/<br>
 https://searx.tuxcloud.net/<br>
 https://opnxng.com/<br>
 https://search.mdosch.de/<br>
-https://search.mdosch.de/<br>
 https://searxng.f24o.zip/<br>
 https://search.citw.lgbt/
 

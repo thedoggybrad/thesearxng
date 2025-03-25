@@ -1,25 +1,15 @@
 <?php
 // List of search engines
 $searchEngines = [
-    "https://search.inetol.net/",
     "https://searx.tiekoetter.com/",
     "https://priv.au/",
     "https://search.rhscz.eu/",
     "https://search.hbubli.cc/",
-    "https://search.ipv6s.net/",
     "https://searx.oloke.xyz/",
-    "https://search.ononoki.org/",
-    "https://searxng.world/",
-    "https://search.im-in.space/",
-    "https://search.canine.tools/",
-    "https://search.sapti.me/",
-    "https://baresearch.org/",
     "https://www.gruble.de/",
     "https://searx.tuxcloud.net/",
     "https://opnxng.com/",
-    "https://search.mdosch.de/",
-    "https://searxng.f24o.zip/",
-    "https://search.citw.lgbt/"
+    "https://search.mdosch.de/"
 ];
 
 // Extract query parameter from the URL

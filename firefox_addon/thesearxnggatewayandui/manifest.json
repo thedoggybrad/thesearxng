@@ -6,15 +6,15 @@
   "author": "thedoggybrad",
   "description": "Add TheSearXNG - Gateway and UI to your search engines list.",
   "icons": {
-    "16": "images/searxng-wordmark.svg",
-    "128": "images/searxng-wordmark.svg"
+    "16": "images/searxng-wordmark.png",
+    "128": "images/searxng-wordmark.png"
   },
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "TheSearXNG - Gateway (TheDoggyBrad)",
       "keyword": "searx, searxng, thesearxng",
       "search_url": "https://thesearxng.vercel.app/search?q={searchTerms}",
-      "favicon_url": "images/searxng-wordmark.svg",
+      "favicon_url": "images/searxng-wordmark.png",
       "suggest_url": "https://thesearxng.vercel.app/autocompleter?q={searchTerms}",
       "encoding": "UTF-8",
       "is_default": true

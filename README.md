@@ -37,7 +37,7 @@ The most effective way to achieve the purpose of this project is to use the Sear
 It is so easy, just fork this project. Deploy it on Vercel in Node.JS (it now works in all versions). Also, please add your own environment variables in VERCEL for Canonical URL, Google and Bing WebMaster verifications just refer to api/php/index.php for those.
 
 ## Recent selection/judgement/revisit of the SearXNG Public Instances
-3:50 PM - March 22, 2025 (UTC+8)
+11:08 AM - March 25, 2025 (UTC+8)
 
 ## Criterias for selection of SearXNG Instances
 The following are the criteria for the selection of the SearXNG public instances that is used for TheSearXNG by TheDoggyBrad Software Labs. These criterias were designed to ensure the reliability of the instances and for the safety, security and privacy of the users of this software. Please be noted that judging of the instances were not done in real-time and were just performed during the free time of the software maintainer.<br><br>
@@ -47,7 +47,8 @@ The following are the criteria for the selection of the SearXNG public instances
 4.) Must have an HTML grade of either C, V or F on searx.space. This means that the used instances does not use modified javascript files and does not contain any analytics tracking.<br>
 5.) Must have a TLS and CSP grade of A+ only. This criteria was imposed for the safety of the users.<br>
 
-## List of SearXNG Instances utilized
+## List of SearXNG Instances utilized for Search functionality
+These are the SearXNG used for the Search function.<br><br>
 https://search.inetol.net/<br>
 https://searx.tiekoetter.com/<br>
 https://priv.au/<br>
@@ -67,6 +68,18 @@ https://opnxng.com/<br>
 https://search.mdosch.de/<br>
 https://searxng.f24o.zip/<br>
 https://search.citw.lgbt/
+
+## List of SearXNG instances utilized for the SearchSuggestions API
+Due to some of the instances disable the SearchSuggestions API, I have to reselect them based on what instances support this function.<br><br>
+https://searx.tiekoetter.com/<br>
+https://priv.au/<br>
+https://search.rhscz.eu/<br>
+https://search.hbubli.cc/<br>
+https://searx.oloke.xyz/<br>
+https://www.gruble.de/<br>
+https://searx.tuxcloud.net/<br>
+https://opnxng.com/<br>
+https://search.mdosch.de/
 
 ## For your concerns
 If you have any concerns on this software, please reach TheDoggyBrad Software Labs on admin@gosocial.x10.bz via email. Just be informed that I do not regularly check my email as I am not a full-time programmer, this is just my free-time hobby.

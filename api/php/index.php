@@ -35,6 +35,7 @@ $bingverify = getenv('MSVALIDATE01');
     <meta name="twitter:image" content="/favicon/image.PNG">
     <meta name="google-site-verification" content="<?php echo htmlspecialchars($googleverify); ?>" />
     <meta name="msvalidate.01" content="<?php echo htmlspecialchars($bingverify); ?>" />
+    <meta name="yandex-verification" content="1a506144f507113b" />
     <style>
   html, body {
     height: 100%;

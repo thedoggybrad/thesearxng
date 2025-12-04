@@ -1,7 +1,7 @@
 ![searxng (Phone)](https://github.com/user-attachments/assets/f92b0312-a375-4ede-9125-83143b559145)
 # TheSearXNG - Gateway and UI
 The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.<br>
-A perfect way to eliminate Google Search on your life.
+A perfect way to eliminate Google Search on your life. 
 
 ## The Search URL
 ### For Web Browsers' Search Engine Setting

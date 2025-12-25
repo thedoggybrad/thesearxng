@@ -34,52 +34,42 @@ The most effective way to achieve the purpose of this project is to use the Sear
 3.) You can both use the UI and the Search URL that you can add to your browser as a default search engine.
 
 ## Deploying your own instance
-It is so easy, just fork this project. Deploy it on Vercel in Node.JS (it now works in all versions). Also, please add your own environment variables in VERCEL for Canonical URL, Google and Bing WebMaster verifications just refer to api/php/index.php for those.
+It is so easy, just fork this project. Deploy it on Vercel in Node.JS. Also, please add your own environment variables in VERCEL for Canonical URL, Google and Bing WebMaster verifications just refer to api/php/index.php for those.
 
 ## Recent selection/judgement/revisit of the SearXNG Public Instances
-11:08 AM - March 25, 2025 (UTC+8)
+6:21PM - December 25, 2025 (UTC+8)
 
 ## Criterias for selection of SearXNG Instances
 The following are the criteria for the selection of the SearXNG public instances that is used for TheSearXNG by TheDoggyBrad Software Labs. These criterias were designed to ensure the reliability of the instances and for the safety, security and privacy of the users of this software. Please be noted that judging of the instances were not done in real-time and were just performed during the free time of the software maintainer.<br><br>
 1.) Must have 100% uptime record on searx.space<br>
-2.) Must have a search, google and initial response time of no longer than approximately 1 second on searx.space.<br>
+2.) Must have a search, google and initial response time of no longer than approximately 1 second on searx.space. Those instances that are unrated for this category is disqualified to maintain this software's speed and quality.<br>
 3.) Must have no error on any categories on searx.space.<br>
 4.) Must have an HTML grade of either C, V or F on searx.space. This means that the used instances does not use modified javascript files and does not contain any analytics tracking.<br>
-5.) Must have a TLS and CSP grade of A+ only. This criteria was imposed for the safety of the users.<br>
+5.) Must have a TLS and CSP grade of A+ only on searx.space. This criteria was imposed for the safety of the users.<br>
 
 ## List of SearXNG Instances utilized for Search functionality
 These are the SearXNG used for the Search function.<br><br>
-https://search.inetol.net/<br>
 https://searx.tiekoetter.com/<br>
-https://priv.au/<br>
 https://search.rhscz.eu/<br>
+https://searx.rhscz.eu/<br>
 https://search.hbubli.cc/<br>
-https://search.ipv6s.net/<br>
+https://search.inetol.net/<br>
+https://searx.stream/<br>
 https://searx.oloke.xyz/<br>
-https://search.ononoki.org/<br>
-https://searxng.world/<br>
 https://search.im-in.space/<br>
-https://search.canine.tools/<br>
-https://search.sapti.me/<br>
-https://baresearch.org/<br>
-https://www.gruble.de/<br>
 https://searx.tuxcloud.net/<br>
-https://opnxng.com/<br>
-https://search.mdosch.de/<br>
-https://searxng.f24o.zip/<br>
-https://search.citw.lgbt/
+https://etsi.me/
 
 ## List of SearXNG instances utilized for the SearchSuggestions API
 Due to some of the instances disable the SearchSuggestions API, I have to reselect them based on what instances support this function.<br><br>
 https://searx.tiekoetter.com/<br>
-https://priv.au/<br>
 https://search.rhscz.eu/<br>
+https://searx.rhscz.eu/<br>
 https://search.hbubli.cc/<br>
-https://searx.oloke.xyz/<br>
-https://www.gruble.de/<br>
+https://searx.stream/<br>
+https://search.im-in.space/<br>
 https://searx.tuxcloud.net/<br>
-https://opnxng.com/<br>
-https://search.mdosch.de/
+https://etsi.me/
 
 ## For your concerns
 If you have any concerns on this software, please reach TheDoggyBrad Software Labs on admin@gosocial.x10.bz via email. Just be informed that I do not regularly check my email as I am not a full-time programmer, this is just my free-time hobby.

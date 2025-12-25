@@ -3,7 +3,7 @@
 // FOR THE URL OF YOUR SITE, NAME THE ENVIRONMENT VARIABLE as CANONICAL_URL and put your own values there
 // FOR THE GOOGLE VERIFICATION KEY, NAME THE ENVIRONMENT VARIABLE as GOOGLE_SITE_VERIFICATION and put your own values there
 // FOR THE BING VERIFICATION KEY, NAME THE ENVIRONMENT VARIABLE as MSVALIDATE01 and put your own values there
-// FOR THE IMAGE ASSETS NAME THE ENVIRONMENT VARIABLES as appletouchicon, favicon32, favicon16, favicon, screenshot, iconlogo and put your own URLs there using the files from here https://github.com/thedoggybrad/thesearxng/tree/main/favicon
+// FOR THE IMAGE ASSETS, NAME THE ENVIRONMENT VARIABLES as appletouchicon, favicon32, favicon16, favicon, screenshot, iconlogo and put your own URLs there using the files from here https://github.com/thedoggybrad/thesearxng/tree/main/favicon
 $baseUrl = getenv('CANONICAL_URL');
 $googleverify = getenv('GOOGLE_SITE_VERIFICATION');
 $bingverify = getenv('MSVALIDATE01');

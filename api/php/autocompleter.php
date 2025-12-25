@@ -2,14 +2,13 @@
 // List of search engines
 $searchEngines = [
     "https://searx.tiekoetter.com/",
-    "https://priv.au/",
     "https://search.rhscz.eu/",
+    "https://searx.rhscz.eu/",
     "https://search.hbubli.cc/",
-    "https://searx.oloke.xyz/",
-    "https://www.gruble.de/",
+    "https://searx.stream/",
+    "https://search.im-in.space/",
     "https://searx.tuxcloud.net/",
-    "https://opnxng.com/",
-    "https://search.mdosch.de/"
+    "https://etsi.me/"
 ];
 
 // Extract query parameter from the URL

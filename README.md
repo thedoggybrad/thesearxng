@@ -3,7 +3,7 @@
 The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.<br>
 A perfect way to eliminate Google Search on your life.  
 
-## The Search URL
+## The Search URL 
 ### For Web Browsers' Search Engine Setting
 https://thesearxng.vercel.app/search?q=%s
 

@@ -34,7 +34,7 @@ The most effective way to achieve the purpose of this project is to use the Sear
 3.) You can both use the UI and the Search URL that you can add to your browser as a default search engine.
 
 ## Deploying your own instance
-It is so easy, just fork this project. Deploy it on Vercel in Node.JS. Also, please add your own environment variables in VERCEL for Canonical URL, Google and Bing WebMaster verifications just refer to api/php/index.php for those.
+It is so easy, just fork this project. Deploy it on Vercel in Node.JS. Also, please add your own environment variables in VERCEL for the image assets, Canonical URL, Google and Bing WebMaster verifications just refer to api/php/index.php for those.
 
 ## Recent selection/judgement/revisit of the SearXNG Public Instances
 6:21PM - December 25, 2025 (UTC+8)

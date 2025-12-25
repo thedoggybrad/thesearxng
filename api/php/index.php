@@ -18,21 +18,21 @@ $bingverify = getenv('MSVALIDATE01');
     <meta name="keywords" content="SearXNG, Privacy, Google, UI, Gateway, Bing, DuckDuckGo, Search, Web, SearX, Randomize, Instances, TheDoggyBrad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TheSearXNG - Gateway and UI</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php $baseUrl = getenv('appletouchicon'); ?>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php $baseUrl = getenv('favicon32'); ?>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php $baseUrl = getenv('favicon16'); ?>">
-    <link rel="icon" type="image/x-ico" href="<?php $baseUrl = getenv('favicon'); ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo getenv('appletouchicon'); ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo getenv('favicon32'); ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo getenv('favicon16'); ?>">
+    <link rel="icon" type="image/x-ico" href="<?php echo getenv('favicon'); ?>">
     <meta property="og:url" content="<?php echo htmlspecialchars($baseUrl); ?>">
     <meta property="og:type" content="website">
     <meta property="og:title" content="TheSearXNG - Gateway and UI">
     <meta property="og:description" content="The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.">
-    <meta property="og:image" content="<?php $baseUrl = getenv('screenshot'); ?>">
+    <meta property="og:image" content="<?php echo getenv('screenshot'); ?>">
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="<?php echo htmlspecialchars($baseUrl); ?>">
     <meta property="twitter:url" content="<?php echo htmlspecialchars($baseUrl); ?>">
     <meta name="twitter:title" content="TheSearXNG - Gateway and UI">
     <meta name="twitter:description" content="The gateway and UI for SearXNG from TheDoggyBrad Software Labs. It aims to deliver a randomized SearXNG searching experience with the focus on making your search data not only sent to a single instance.">
-    <meta name="twitter:image" content="<?php $baseUrl = getenv('screenshot'); ?>">
+    <meta name="twitter:image" content="<?php echo getenv('screenshot'); ?>">
     <meta name="google-site-verification" content="<?php echo htmlspecialchars($googleverify); ?>" />
     <meta name="msvalidate.01" content="<?php echo htmlspecialchars($bingverify); ?>" />
     <meta name="yandex-verification" content="1a506144f507113b" />
@@ -107,7 +107,7 @@ $bingverify = getenv('MSVALIDATE01');
 <body>
     <div class="content">
         <div class="container">
-            <img src="<?php $baseUrl = getenv('iconlogo'); ?>" alt="searxng icon"><br>
+            <img src="<?php echo getenv('iconlogo'); ?>" alt="searxng icon"><br>
             <input type="text" id="searchInput" placeholder="Search the web">
             <button style="margin-top: 20px;" onclick="search()">Search</button>
         </div>

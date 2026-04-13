@@ -1,4 +1,5 @@
 <?php
+
 // List of search engines
 $searchEngines = [
     "https://search.rhscz.eu/",
@@ -14,21 +15,18 @@ $searchEngines = [
 ];
 
 // Extract query parameter from the URL
-if (isset($_GET['q'])) {
-    $query = $_GET['q'];
-    
-    // Validate and encode query
-    $encodedQuery = urlencode($query);
-    
-    // Choose a random search engine
-    $randomIndex = array_rand($searchEngines);
-    $selectedEngine = $searchEngines[$randomIndex];
-    
-    // Build the search URL
-    $searchUrl = $selectedEngine . "autocompleter?q=" . $encodedQuery;
-    
-    // Redirect to the search URL
-    header("Location: " . $searchUrl);
-    exit();
-}
-?>
+$query = $_GET['q'] ?? '';
+$query = trim($query);
+
+// Validate and encode query
+$encodedQuery = rawurlencode($query);
+
+// Pick a random search engine efficiently
+$selectedEngine = $searchEngines[array_rand($searchEngines)];
+
+// Build URL safely
+$searchUrl = $selectedEngine . "autocompleter?q=" . $encodedQuery;
+
+// Redirect to search URL
+header("Location: $searchUrl", true, 302);
+exit;

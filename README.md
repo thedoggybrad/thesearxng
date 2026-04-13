@@ -33,6 +33,9 @@ The most effective way to achieve the purpose of this project is to use the Sear
 2.) If you are familar on benbusby's farside on [https://farside.link/](https://farside.link/), it is the inspiration of this project. It randomly selects the instance that you will be using to do the search. But the difference of this project is that this uses PHP on Vercel while Farside uses Elixir programming language and of course the logic and its algorithm. Since I am not knowledgeable in Elixir, I cannot discuss the difference of our logics and algorithms but this project only randomly selects my carefully selected instance.<br>
 3.) You can both use the UI and the Search URL that you can add to your browser as a default search engine.
 
+## Can you trust this software for my privacy and safety?
+You totally can't. Even though, "TheSearXNG" itself does not collect any user data and just transmits your search data to various SearXNG instances. We do not have control over what Vercel, GitHub, ISP, and/or the SearXNG instance does to your search data as it passes through their servers. This software does not give "guranteed privacy", it only gives randomization of your search data. If you want to protect yourself extremely, then use a VPN (that's trustworthy) and/or The Onion Router (TOR) to mask your device. 
+
 ## Deploying your own instance
 It is so easy, just fork this project. Deploy it on Vercel in Node.JS. Also, please add your own environment variables in VERCEL for the image assets, Canonical URL, Google and Bing WebMaster verifications just refer to api/php/index.php for those.
 

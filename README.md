@@ -40,7 +40,7 @@ You totally can't. Even though, "TheSearXNG" itself does not collect any user da
 It is so easy, just fork this project. Deploy it on Vercel in Node.JS. Also, please add your own environment variables in VERCEL for the image assets, Canonical URL, Google and Bing WebMaster verifications just refer to api/php/index.php for those.
 
 ## Last selection/judgement/revisit of the SearXNG Public Instances
-8:05PM - April 13, 2026 (UTC+8)
+9:04PM - April 13, 2026 (UTC+8)
 
 ## Criterias for selection of SearXNG Instances
 The following are the criteria for the selection of the SearXNG public instances that is used for TheSearXNG by TheDoggyBrad Software Labs. These criterias were designed to ensure the reliability of the instances and for the safety, security and privacy of the users of this software. Please be noted that judging of the instances were not done in real-time and were just performed during the free time of the software maintainer.<br><br>
@@ -62,7 +62,6 @@ https://search.inetol.net/<br>
 https://search.hbubli.cc/<br>
 https://search.mdosch.de/<br>
 https://ooglester.com/<br>
-https://baresearch.org/<br>
 https://search.2b9t.xyz/<br>
 https://searx.party/<br>
 https://etsi.me/<br>

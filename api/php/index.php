@@ -8,7 +8,6 @@ $baseUrl = getenv('CANONICAL_URL');
 $googleverify = getenv('GOOGLE_SITE_VERIFICATION');
 $bingverify = getenv('MSVALIDATE01');
 ?>
-
 <!DOCTYPE html> 
 <html lang="en">
 <head>

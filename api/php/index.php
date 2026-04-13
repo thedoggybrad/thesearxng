@@ -118,16 +118,20 @@ $bingverify = getenv('MSVALIDATE01');
         ©2024-Present <a href="https://github.com/thedoggybrad">TheDoggyBrad Software Labs</a>. Licensed under the <a href="https://github.com/thedoggybrad/thesearxng/blob/main/LICENSE">MIT-0 License</a>.</footer>
     <script>
         const searchEngines = [
-            "https://searx.tiekoetter.com/",
-            "https://search.rhscz.eu/",
-            "https://searx.rhscz.eu/",
-            "https://search.hbubli.cc/",
-            "https://search.inetol.net/",
-            "https://searx.stream/",
-            "https://searx.oloke.xyz/",
-            "https://search.im-in.space/",
-            "https://searx.tuxcloud.net/",
-            "https://etsi.me/"
+                    "https://search.rhscz.eu/",
+                    "https://searx.rhscz.eu/",
+                    "https://search.bladerunn.in/",
+                    "https://searx.tiekoetter.com/",
+                    "https://searxng.site/",
+                    "https://search.inetol.net/",
+                    "https://search.hbubli.cc/",
+                    "https://search.mdosch.de/",
+                    "https://ooglester.com/",
+                    "https://baresearch.org/",
+                    "https://search.2b9t.xyz/",
+                    "https://searx.party/",
+                    "https://etsi.me/",
+                    "https://searx.perennialte.ch/"
         ];
 
         function search() {

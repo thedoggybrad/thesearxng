@@ -23,7 +23,7 @@ $query = $_GET['q'] ?? '';
 $engine = $searchEngines[array_rand($searchEngines)];
 
 // Ensure proper query building
-$searchUrl = rtrim($engine, '/') . '/search?' . http_build_query(['q' => $query]);
+$searchUrl = rtrim($engine, '') . 'search?' . http_build_query(['q' => $query]);
 
 // Redirect to search URL
 header("Location: $searchUrl", true, 302);

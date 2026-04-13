@@ -128,7 +128,6 @@ $bingverify = getenv('MSVALIDATE01');
         "https://search.hbubli.cc/",
         "https://search.mdosch.de/",
         "https://ooglester.com/",
-        "https://baresearch.org/",
         "https://search.2b9t.xyz/",
         "https://searx.party/",
         "https://etsi.me/",

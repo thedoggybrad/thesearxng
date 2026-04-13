@@ -109,46 +109,47 @@ $bingverify = getenv('MSVALIDATE01');
     <div class="content">
         <div class="container">
             <img src="<?php echo getenv('iconlogo'); ?>" alt="searxng icon"><br>
-            <input type="text" id="searchInput" placeholder="Search the web">
+            <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Search the web" autocomplete="off" spellcheck="false">
+            </form>
             <button style="margin-top: 20px;" onclick="search()">Search</button>
         </div>
     </div>
     <footer><a href="https://github.com/thedoggybrad/thesearxng/blob/main/README.md">Github (Documentation)</a>
         <br><br>
         ©2024-Present <a href="https://github.com/thedoggybrad">TheDoggyBrad Software Labs</a>. Licensed under the <a href="https://github.com/thedoggybrad/thesearxng/blob/main/LICENSE">MIT-0 License</a>.</footer>
-    <script>
-        const searchEngines = [
-                    "https://search.rhscz.eu/",
-                    "https://searx.rhscz.eu/",
-                    "https://search.bladerunn.in/",
-                    "https://searx.tiekoetter.com/",
-                    "https://searxng.site/",
-                    "https://search.inetol.net/",
-                    "https://search.hbubli.cc/",
-                    "https://search.mdosch.de/",
-                    "https://ooglester.com/",
-                    "https://baresearch.org/",
-                    "https://search.2b9t.xyz/",
-                    "https://searx.party/",
-                    "https://etsi.me/",
-                    "https://searx.perennialte.ch/"
-        ];
+<script>
+    const engines = [
+        "https://search.rhscz.eu/",
+        "https://searx.rhscz.eu/",
+        "https://search.bladerunn.in/",
+        "https://searx.tiekoetter.com/",
+        "https://searxng.site/",
+        "https://search.inetol.net/",
+        "https://search.hbubli.cc/",
+        "https://search.mdosch.de/",
+        "https://ooglester.com/",
+        "https://baresearch.org/",
+        "https://search.2b9t.xyz/",
+        "https://searx.party/",
+        "https://etsi.me/",
+        "https://searx.perennialte.ch/"
+    ];
 
-        function search() {
-            const query = document.getElementById('searchInput').value;
-            if (query) {
-                const randomIndex = Math.floor(Math.random() * searchEngines.length);
-                const searchUrl = `${searchEngines[randomIndex]}search?q=${encodeURIComponent(query)}`;
-                window.location.href = searchUrl;
-            }
-        }
+    const form = document.getElementById('searchForm');
+    const input = document.getElementById('searchInput');
 
-        document.getElementById('searchInput').addEventListener('keydown', function(event) {
-            if (event.key === 'Enter') {
-                search();
-                event.preventDefault(); // Prevent the default form submit action (if any)
-            }
-        });
-    </script>
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+
+        const q = input.value.trim();
+        if (!q) return;
+
+        const engine = engines[Math.floor(Math.random() * engines.length)];
+        window.open(`${engine}search?q=${encodeURIComponent(q)}`, '_blank');
+        input.value = '';
+        input.focus();
+    });
+</script>
 </body>
 </html>
